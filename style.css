@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding-left: 17%;
+    padding-left: 15%;
     background-color: #fff;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .login-form {
-    width: 75%;
+    width: 70%;
 }
 
 .login-form-content {
@@ -100,17 +100,25 @@ body {
     background-color: #eee;
 }
 
-.form-item label:not(.checkboxLabel) {
+.form-item label:not(.checkbox) {
     display: inline-block;
-    background-color: #fff;
-    margin-bottom: 10px;
+    background-color: #fff;  
     position: absolute;
     padding: 0 10px;
     transform: translate(30px, -10px);
-    opacity: 100%;
 }
 
 
+#loginIcon, #passwdIcon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -50px;
+    opacity: 100%;
+}
+
+.form-item 
 
 input[type='text'],
 input[type='password'] {
@@ -152,7 +160,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button:hover,
+button:focus {
     transition-property: all;
     transition-duration: 0.2s;
     transform: scale(1.05);
