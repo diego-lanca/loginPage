@@ -29,7 +29,7 @@ body {
 
 .container {
     min-height: calc(100vh - 40px * 2);
-    display:grid;
+    display: grid;
     grid-template-columns: 50% 50%;
     border-radius: 10px;
     overflow: hidden;
@@ -37,14 +37,14 @@ body {
 
 .login-left {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
-    padding-left: 150px;
+    padding-left: 17%;
     background-color: #fff;
 }
 
 .login-right {
-    background-color: #eee;
+    background-color: #ffffffe8;
     display: flex;
     justify-content: center;
     
@@ -55,12 +55,12 @@ body {
 }
 
 .login-header {
-     margin-bottom: 50px;
+     margin-bottom: 5%;
 }
 
 .login-header h1 {
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 .login-header p {
@@ -68,19 +68,19 @@ body {
 }
 
 .login-form {
-    width: 450px;
+    width: 75%;
 }
 
 .login-form-content {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 30px;
 }
 
 .login-form-footer {
     display: flex;
     gap: 30px;
-    margin-top: 70px;
+    margin-top: 7%;
 }
 
 .login-form-footer a {
@@ -108,7 +108,6 @@ body {
     padding: 0 10px;
     transform: translate(30px, -10px);
     opacity: 100%;
-    font-size: 14px;
 }
 
 
@@ -156,6 +155,7 @@ button {
 button:hover {
     transition-property: all;
     transition-duration: 0.2s;
+    transform: scale(1.05);
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     color: #fff;
 }
