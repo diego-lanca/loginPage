@@ -1,1 +1,3 @@
-console.log('Implementar JS')
+const aFazer = () => {
+    window.alert('Ainda não finalizado, em processo...')
+}
