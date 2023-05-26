@@ -125,6 +125,11 @@ input[type='password'] {
     border-radius: 100px;
 }
 
+input:focus ~ label,
+input:focus ~ :valid {
+    top: -5px;
+}
+
 .checkbox {
     display: flex;
     align-items: center;
